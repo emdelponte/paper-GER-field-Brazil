@@ -1,0 +1,33 @@
+name: teste
+output_dir: docs
+output:
+  html_document:
+    css: style.css
+    theme: flatly
+    df_print: paged
+    highlight: pygments
+    include:
+      after_body: footer.md
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+    lib_dir: site_libs
+    self_contained: no
+navbar:
+  title: Machado et al. GER-maize
+  left:
+  - text: About
+    icon: fa fa-home
+    href: index.html
+  - text: Data
+    icon: fa fa-table
+    href: data.html
+  - text: R Code
+    icon: fa fa-file-code-o
+    href: code.html
+  right:
+  - text: source
+    icon: fa-github-square
+    href: https://github.com/phytopathology/paper-FGSC-fitness
+
